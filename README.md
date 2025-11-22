@@ -63,5 +63,72 @@ The backend:
 
 ---
 
-## 📁 Project Structure
 
+
+---
+
+
+
+## 📁 Project Structure
+real-estate-chatbot/
+│
+├── backend/
+│ ├── backend/
+│ ├── api/
+│ ├── data/real_estate.xlsx
+│ ├── requirements.txt
+│ ├── Procfile
+│ └── manage.py
+│
+├── frontend/
+│ ├── src/App.jsx
+│ ├── vite.config.js
+│ └── package.json
+│
+└── README.md
+## ⚙️ Backend Setup (Django)
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py runserver
+```
+## ⚙️ frontend Setup (Django)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+### frontend runs at
+http://localhost:5173
+
+## 🌐 API Endpoint
+POST /api/query/
+
+### Request:
+
+{
+  "query": "analysis of wakad"
+}
+
+
+### Response:
+
+{
+  "summary": "...",
+  "chart": {...},
+  "table": {...}
+}
+
+## 📥 Download Dataset
+### GET /api/download/
+
+
+Downloads real_estate_data.csv.
+
+## ✨ Author
+
+Akanksha Singh
