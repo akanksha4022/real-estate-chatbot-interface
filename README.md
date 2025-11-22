@@ -1,12 +1,12 @@
-# 🏡 Real Estate Analysis Chatbot (Django + React + Vite)
+# Real Estate Analysis Chatbot (Django + React + Vite)
 
 A full-stack web-based chatbot that analyzes real estate localities from an Excel dataset and gives:
 
-- 📌 Text Summary (LLM / Mock Output)
-- 📈 Price Trend Chart
-- 📊 Demand Trend Chart
-- 📋 Filtered Data Table
-- 📤 Download Dataset Option
+- Text Summary (LLM / Mock Output)
+- Price Trend Chart
+- Demand Trend Chart
+- Filtered Data Table
+- Download Dataset Option
 
 This project uses:
 
@@ -18,7 +18,7 @@ This project uses:
 
 ---
 
-## 🚀 Features
+## Features
 
 ### ✔ Natural Language Query Processing  
 Examples:
@@ -42,7 +42,7 @@ The backend:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Backend**
 - Django  
@@ -69,7 +69,7 @@ The backend:
 
 
 
-## 📁 Project Structure
+## Project Structure
 ```
 real-estate-chatbot/
 │
@@ -88,7 +88,7 @@ real-estate-chatbot/
 │
 └── README.md
 ```
-## ⚙️ Backend Setup (Django)
+## Backend Setup (Django)
 
 ```bash
 cd backend
@@ -97,7 +97,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
 ```
-## ⚙️ frontend Setup (Django)
+## frontend Setup (Django)
 
 ```bash
 cd frontend
@@ -107,7 +107,7 @@ npm run dev
 ### frontend runs at
 http://localhost:5173
 
-## 🌐 API Endpoint
+## API Endpoint
 POST /api/query/
 
 ### Request:
@@ -125,12 +125,12 @@ POST /api/query/
   "table": {...}
 }
 
-## 📥 Download Dataset
+## Download Dataset
 ### GET /api/download/
 
 
 Downloads real_estate_data.csv.
 
-## ✨ Author
+## ❤️Author
 
 Akanksha Singh
