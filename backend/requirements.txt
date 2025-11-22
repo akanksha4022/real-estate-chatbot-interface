@@ -53,3 +53,4 @@ Django
 djangorestframework
 pandas
 python-dotenv
+gunicorn
