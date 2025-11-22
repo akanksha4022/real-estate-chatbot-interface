@@ -70,6 +70,7 @@ The backend:
 
 
 ## 📁 Project Structure
+```
 real-estate-chatbot/
 │
 ├── backend/
@@ -86,6 +87,7 @@ real-estate-chatbot/
 │ └── package.json
 │
 └── README.md
+```
 ## ⚙️ Backend Setup (Django)
 
 ```bash
