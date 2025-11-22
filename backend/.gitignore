@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.env
+*.env.*
+
+# Django stuff
+staticfiles/
+media/
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# IDE / editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / cache
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Pip installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# dotenv files
+.env
+
+# Render build
+static/
